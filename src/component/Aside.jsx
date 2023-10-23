@@ -57,11 +57,11 @@ const handlePageChange = (newPage) => {
         <div className='singlerepo' key={each.id}> 
         <div className='single'>
        <div><Link to={`/each/${each.name}`}><p >{each.name}</p> </Link></div>
-       <div className='smaller'>{each.language} </div> 
+       
             </div>   
 
             <div>
-            <p className='eachupdate'>{each.updated_at}</p>  
+            <div className='smaller'>{each.language} </div> 
 
               </div> 
               </div>)

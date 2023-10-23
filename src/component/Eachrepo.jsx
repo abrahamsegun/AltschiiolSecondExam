@@ -10,9 +10,9 @@ const Eachrepo = ({handlePageChange , currentItems, totalPages, currentPage, rep
       {currentItems.map((each)=>{
         return(
         <div className='singlerepo' key={each.id}> 
-        <div className='single' >
+  
          <div id='smallerme'><Link to={`/each/${each.name}`}> <h2>{each.name}</h2>  </Link></div>
-            </div> 
+           
 
             <div className='eachupdate' >
             <p id='smalleru'>{each.language}</p> 
