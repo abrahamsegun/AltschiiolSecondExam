@@ -1,7 +1,7 @@
 import React from 'react' 
 import {createBrowserRouter, createRoutesFromElements, RouterProvider, Route} from "react-router-dom"
 import {Root1, Repositories, DiplayEachRepo,NotFound, Root2, Aside} from './Default'
-import Index from '.'
+import Index from './Index'
 
 
 function App() {
