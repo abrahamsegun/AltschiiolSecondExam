@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 
 const Eachrepo = ({handlePageChange , currentItems, totalPages, currentPage, reps}) => {
   return (
-    <div className='eachrepo'>
+    <div className='eachrepo'id='eachrepo'>
       {currentItems.map((each)=>{
         return(
         <div className='singlerepo' key={each.id}> 

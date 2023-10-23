@@ -22,8 +22,8 @@ a:active{
 }
 @media only screen and (max-width: 500px) {
   body{
-    max-width: 450px;
-    width: 100%;
+   
+    width: 100% !important;
   }
   .appDiv{
     display: flex;
